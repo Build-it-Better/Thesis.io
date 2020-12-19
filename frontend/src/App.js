@@ -1,13 +1,18 @@
-import React, { Component } from "react";
+import React from "react";
+import { Container } from "react-bootstrap";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
-export class App extends Component {
-  render() {
-    return (
-      <div className="container">
-        <h1>Thesis.io</h1>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <>
+      <Header />
+      <main className="py-3">
+        <Container>Welcome</Container>
+      </main>
+      <Footer />
+    </>
+  );
+};
 
 export default App;
