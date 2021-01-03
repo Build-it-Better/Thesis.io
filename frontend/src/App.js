@@ -17,5 +17,5 @@ const App = () => {
 
 export default App;
 
-// minor change
+// new change
 // github collab
